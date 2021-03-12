@@ -1,16 +1,16 @@
-//
-//  ContentView.swift
-//  GoogleMapsIntegration
-//
-//  Created by Ahmed Mgua on 3/12/21.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+		ZStack {
+			GoogleMapsView()
+				.edgesIgnoringSafeArea(.all)
+			
+			Circle()
+				.foregroundColor(.blue)
+				.opacity(0.5)
+				.frame(width:	30,	height:	30)
+		}
     }
 }
 
