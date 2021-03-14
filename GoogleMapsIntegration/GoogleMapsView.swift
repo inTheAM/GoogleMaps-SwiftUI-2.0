@@ -21,7 +21,6 @@ extension GMSCameraPosition	{
 }
 
 
-
 struct GoogleMapsView_Previews: PreviewProvider {
     static var previews: some View {
         GoogleMapsView()

@@ -10,5 +10,3 @@ struct MainApp: App {
         }
     }
 }
-
-
