@@ -2,7 +2,7 @@ import SwiftUI
 import GoogleMaps
 
 struct GoogleMapsView: UIViewRepresentable {
-	var zoom:	Float	=	10.0
+	let zoom:	Float	=	10.0
 	
 	func makeUIView(context: Context) -> GMSMapView {
 		let camera	=	GMSCameraPosition.london

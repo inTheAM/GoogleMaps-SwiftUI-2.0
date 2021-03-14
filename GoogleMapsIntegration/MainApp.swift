@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct GoogleMapsIntegrationApp: App {
+struct MainApp: App {
 	@UIApplicationDelegateAdaptor(AppDelegate.self)	var appDelegate
 	
     var body: some Scene {
